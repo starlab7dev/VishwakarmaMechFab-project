@@ -1,10 +1,10 @@
 
 from pathlib import Path
 import os
-from decouple import config
+# from decouple import config
 
-SECRET_KEY = config('SECRET_KEY')
-DEBUG = config('DEBUG', default=False, cast=bool)
+# SECRET_KEY = config('SECRET_KEY')
+# DEBUG = config('DEBUG', default=False, cast=bool)
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -20,11 +20,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-&qer@dw@z0^k=+a16lyjx%kf&oh5qm927ix_(my&ol=+_t8nus'
 
-DEBUG = True
+DEBUG = False
 # DEBUG = False
 
 # ALLOWED_HOSTS = ['vishwakarmamechfab.in','www.vishwakarmamechfab.in']
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [*]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
