@@ -23,8 +23,8 @@ SECRET_KEY = 'django-insecure-&qer@dw@z0^k=+a16lyjx%kf&oh5qm927ix_(my&ol=+_t8nus
 DEBUG = False
 # DEBUG = False
 
-# ALLOWED_HOSTS = ['vishwakarmamechfab.in','www.vishwakarmamechfab.in']
-ALLOWED_HOSTS = [*]
+ALLOWED_HOSTS = ['vishwakarmamechfab.in','www.Vishwakarmamecchfab.onrender.com','www.vishwakarmamechfab.in']
+# ALLOWED_HOSTS = [*]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
