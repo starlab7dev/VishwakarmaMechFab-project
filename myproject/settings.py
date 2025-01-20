@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-&qer@dw@z0^k=+a16lyjx%kf&oh5qm927ix_(my&ol=+_t8nus'
 
-DEBUG = False
+DEBUG = True
 # DEBUG = False
 
 ALLOWED_HOSTS = ['vishwakarmamechfab.in','www.Vishwakarmamecchfab.onrender.com','www.vishwakarmamechfab.in']
